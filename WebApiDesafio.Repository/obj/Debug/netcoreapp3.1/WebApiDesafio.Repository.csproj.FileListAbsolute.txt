@@ -1,0 +1,10 @@
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\bin\Debug\netcoreapp3.1\WebApiDesafio.Repository.deps.json
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\bin\Debug\netcoreapp3.1\WebApiDesafio.Repository.dll
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\bin\Debug\netcoreapp3.1\WebApiDesafio.Repository.pdb
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\obj\Debug\netcoreapp3.1\WebApiDesafio.Repository.csproj.AssemblyReference.cache
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\obj\Debug\netcoreapp3.1\WebApiDesafio.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\obj\Debug\netcoreapp3.1\WebApiDesafio.Repository.AssemblyInfoInputs.cache
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\obj\Debug\netcoreapp3.1\WebApiDesafio.Repository.AssemblyInfo.cs
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\obj\Debug\netcoreapp3.1\WebApiDesafio.Repository.csproj.CoreCompileInputs.cache
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\obj\Debug\netcoreapp3.1\WebApiDesafio.Repository.dll
+C:\Users\50s\Documents\Teste\WebApiDesafio.Repository\obj\Debug\netcoreapp3.1\WebApiDesafio.Repository.pdb

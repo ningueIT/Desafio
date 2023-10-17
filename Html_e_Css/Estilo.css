@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h2{
+     text-align: center;
+     font-size: px;
+     color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #161b22;
+     width: 700px;
+     margin: auto;
+     color: white;
+ }
+ 
+ input {
+     width: 100%;
+     border:  1px solid gray;
+     border-bottom: 1px solid gray;
+     font-size: 25px;
+     padding: 7px 0;
+     background: transparent;
+     margin-top: 12px;
+     margin-bottom: 12;
+     color: white;
+ }
+ 
+ label {
+     font-size: 25px;
+     margin-bottom: 1px;
+     color: white;
+ }
+ 
+ button {
+     background-color: #238636;
+     border-radius:  6px;
+     border-width:  0;
+     color:white;
+     cursor: pointer;
+     height: 44px;
+     margin:  12 0 0 0;
+     padding: 0 25px;
+     width: 100%;
+     font-size: 25px;
+ }
+ 
+ table{
+     width: 100%;
+     border:  1px solid gray;
+ }
+ 
+ th,td {
+     padding: 10px;
+ }
+ 
+ .table-row {
+     background-color: white;
+     box-shadow: 0px 0px 9px 9px rgb(0,0,0,0.1);
+ }

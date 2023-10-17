@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>cadastrar</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+     <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+     <h2>Cadastre-se</h2>
+     <label for="txt_nome">Nome:</label>
+     <input type="text" id="txt_nome"><br>
+
+     <label for="txt_usuario">Usuário:</label>
+     <input type="text" id="txt_usuario"><br>
+
+     <label for="txt_senha">Senha:</label>
+     <input type="password" id="txt_senha"><br>
+
+     <label for="txt_senha_confirma">Confimar senha:</label>
+     <input type="password" id="txt_senha_confirma"><br><br>
+
+     <button onclick="cadastrar()">cadastre-se</button><br><br><br>
+     <button onclick="login()">Entrar</button>
+
+</body>
+
+</html>
+
+<script>
+     function cadastrar(){
+         if ($("#txt_senha").val() != $("#txt_senha_confirma").val()){
+         //Se a senha for diferente do confimar senhar ele da um alerta de que as senhas são diferente e retona para a pessoa fazer denovo
+             alert ('As senhas não são iguais.');
+             return;
+         }
+ 
+         var requestUsuario = {
+             "Nome": $("#txt_nome").val(),
+             "Usuario": $("#txt_usuario").val(),
+             "Senha": $("#txt_senha").val()
+         }
+ 
+         $.ajax({
+             url: "http://localhost:7384/Usuario/CriarUser",
+             type: "POST",
+             data: JSON.stringify(requestUsuario),
+             contentType: "application/json",
+             dataType: "json",
+             success: function (response) {window.location.href = "./Login.html"},
+             error: function (request, message, error) {alert("Erro ao cadastre-se");}
+         })
+     }
+ </script>
